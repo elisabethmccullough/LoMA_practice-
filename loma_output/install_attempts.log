@@ -1,0 +1,28 @@
+[apt dependency install attempt] apt-get update && apt-get install -y minimap2 mafft
+Ign:1 https://apt.llvm.org/noble llvm-toolchain-noble-20 InRelease
+Err:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+  403  Forbidden [IP: 172.30.0.99 8080]
+Ign:3 https://mise.jdx.dev/deb stable InRelease
+Ign:1 https://apt.llvm.org/noble llvm-toolchain-noble-20 InRelease
+Ign:3 https://mise.jdx.dev/deb stable InRelease
+Ign:1 https://apt.llvm.org/noble llvm-toolchain-noble-20 InRelease
+Ign:3 https://mise.jdx.dev/deb stable InRelease
+Err:4 http://archive.ubuntu.com/ubuntu noble InRelease
+  403  Forbidden [IP: 172.30.0.99 8080]
+Err:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+  403  Forbidden [IP: 172.30.0.99 8080]
+Err:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+  403  Forbidden [IP: 172.30.0.99 8080]
+Err:1 https://apt.llvm.org/noble llvm-toolchain-noble-20 InRelease
+  Invalid response from proxy: HTTP/1.1 403 Forbidden  content-length: 9  content-type: text/plain  date: Thu, 11 Jun 2026 15:14:44 GMT  server: envoy  connection: close     [IP: 172.30.0.99 8080]
+Err:3 https://mise.jdx.dev/deb stable InRelease
+  Invalid response from proxy: HTTP/1.1 403 Forbidden  content-length: 9  content-type: text/plain  date: Thu, 11 Jun 2026 15:14:44 GMT  server: envoy  connection: close     [IP: 172.30.0.99 8080]
+Reading package lists...
+E: The repository 'http://security.ubuntu.com/ubuntu noble-security InRelease' is no longer signed.
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/noble-security/InRelease  403  Forbidden [IP: 172.30.0.99 8080]
+E: The repository 'http://archive.ubuntu.com/ubuntu noble InRelease' is no longer signed.
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/noble/InRelease  403  Forbidden [IP: 172.30.0.99 8080]
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/noble-updates/InRelease  403  Forbidden [IP: 172.30.0.99 8080]
+E: The repository 'http://archive.ubuntu.com/ubuntu noble-updates InRelease' is no longer signed.
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/noble-backports/InRelease  403  Forbidden [IP: 172.30.0.99 8080]
+E: The repository 'http://archive.ubuntu.com/ubuntu noble-backports InRelease' is no longer signed.
